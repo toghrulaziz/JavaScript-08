@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+form label, form input {
+    display: block;
+    margin: 5px auto;
+    width: 150px;
+}
+
+form button {
+    margin-top: 10px;
+}
+
+#colorResult {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.color-container {
+    margin: 10px;
+    text-align: center;
+}
+
+.color-box {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 5px;
+    border: 1px solid #000000;
+    display: inline-block;
+}

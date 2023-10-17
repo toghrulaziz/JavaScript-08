@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Creator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <h1>Color Creator</h1>
+
+    <form id="colorForm">
+        <label for="red">Red (0-255):</label>
+        <input type="number" id="red" name="red" min="0" max="255" required><br>
+        <label for="green">Green (0-255):</label>
+        <input type="number" id="green" name="green" min="0" max="255" required><br>
+        <label for="blue">Blue (0-255):</label>
+        <input type="number" id="blue" name="blue" min="0" max="255" required><br>
+        <button type="submit">Add Color</button>
+    </form>
+
+    <div id="colorResult" style="margin-top: 20px;"></div>
+    
+    <script src="js08_1.js"></script>
+</body>
+</html>
